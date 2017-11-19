@@ -1,0 +1,141 @@
+---
+layout: default
+---
+<!-- about  -->
+<section id="about">
+  <div class="container-full">
+    <div class="container">
+      <div class="row bm-remove animate" data-anim-type="zoomInUp">
+        <div class="about_content">
+          <div class="col-md-6">
+            <div class="imac">
+              <img src="{{ site.baseurl }}/assets/img/game_1.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="web_content">
+              <h1>The Last Hope Of Dragons</h1>
+              <h4>An A-RPG Game</h4>
+              <p>The Last Hope Of Dragons are in developpement, but a playable demo is planned</p>
+              <a class="btn btn-red" href="#help">Help me to unlock the demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- /about  -->
+
+<!-- Story -->
+<section id="story">
+  <div class="container-full">
+    <div class="container">
+      <div class="row bm-remove animate" data-anim-type="fadeInLeft">
+        <div class="col-md-12">
+          <center><img src="{{ site.baseurl }}/assets/img/aidora_face.png" style="width: 30%" alt=""></center>
+          <h2><em>In a devasted world, a dragon purification order aims to hannil all dragons.
+          <br>Aidora an old banned captain knight of the order was acquired a dragon hearth after certain event,
+          <br><center>since he is hunted by both dragons and humans ...</center></em></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End sotry -->
+
+<!-- Promotional video -->
+<section id="promotion">
+  <div class="container-full">
+    <div class="container">
+      <div class="bm-remove animate" data-anim-type="zoomInUp">
+        <div class="col-md-6">
+          <div class="promotion_content " data-anim-type="fadeInLeft">
+            <h1>Last Summary </h1>
+            <p>Aidora can climb and teleport with her dragon sword used her dragon spirit. Also he can block some enemies attack.</p>
+            <a href="#portfolio" style="color: #8A0808;">Old mechanics (but always present)</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="ifarem embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" width="520" height="345"
+            src="https://www.youtube.com/embed/JLbqZn9bgCg">
+            </iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- /#promotion -->
+
+<!-- Updates -->
+<section id="portfolio">
+  <div class="container-full">
+    <div class="container">
+      <div class="row bm-remove animate" data-anim-type="zoomInUp">
+        <h2 class="section-title">Old updates</h2>
+        <hr />
+
+        <div class="work-mig">
+          <ul>
+            {% for post in site.posts reversed %}
+              {% if post.categories contains 'updates' %}
+              <li class="col-md-4 col-sm-6 col-lg-4">
+                <figure>
+                  <img src="{{ site.baseurl }}/assets/img/{{ post.thumbnail }}" alt="news">
+                  <figcaption>
+                    <div class="border">
+                      <h4>{{ post.title }}</h4>
+                      <a href="{{ site.baseurl }}/assets/img/{{ post.thumbnail }}" ><i class="fa fa fa-link"></i></a>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- /#Updates -->
+
+<!-- help -->
+<section id="help">
+  <div class="container-full">
+    <div class="container">
+      <div class="content text-center">
+        <a href="#"><i class="fa fa-user-circle"></i></a>
+        <h1> To contribute / Join team</h1>
+        <p>If you want help me to take out the demo (Level Design, 3D Modeling, 3D Animations, VFX, Graphist, ...)</p>
+        <p>Contact me</p>
+
+
+        <h1>You can also donate (to finance)</h1>
+        <div class="col-md-2 col-md-offset-3">
+          <a href="https://www.patreon.com/dzak"><img src="{{ site.baseurl }}/assets/img/patreon-logo1.png" style="width: 98px;"></a>
+        </div>
+
+        <div class="col-md-2 col-md-offset-2">
+          <a href="https://www.tipeee.com/create/the-last-hope-of-dragons"><img src="{{ site.baseurl }}/assets/img/tipee.png" style="width: 98px;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer top -->
+<footer id="footer-top">
+  <div class="container-full">
+    <div class="container">
+      <div class="row bm-remove animate" data-anim-type="bounceIn">
+        <div class="footer-text">
+          <h1>YOU WANT TO CONTACT ME ?</h1>
+          <p>Send me a mail :
+          <br><a href="mailto:dynamique.zak@gmail.com">dynamique.zak@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> <!-- footer-top -->
