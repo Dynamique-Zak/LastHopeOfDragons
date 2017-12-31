@@ -707,9 +707,12 @@ img{
 }
 /* start footer-top */
 #footer-top .container-full{
-	background: #413e3e;
+	background-color: #413e3e;
 	min-width: 50px;
 	padding-bottom: 30px;
+	background: url(https://raw.githubusercontent.com/Dynamique-Zak/LastHopeOfDragons/master/assets/img/Background_02.jpg) no-repeat;
+	background-size: cover;
+	background-position-y: 65%;
 }
 #footer-top .footer-text{
 	margin: 0;
@@ -742,9 +745,6 @@ img{
 	background-color: #2E2E2E;
 	min-width: 50%;
 	padding-bottom: 14px;
-	background: url(https://raw.githubusercontent.com/Dynamique-Zak/LastHopeOfDragons/master/assets/img/Background_02.jpg) no-repeat;
-	background-size: cover;
-	background-position-y: 65%;
 }
 #footer .socile{
 	margin-top: 22px;
