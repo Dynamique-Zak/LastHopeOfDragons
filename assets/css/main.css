@@ -426,7 +426,9 @@ img{
 
 /* start about page  */
 #about .container-full{
-	background: #f2f2f2;
+	background-color: #f2f2f2;
+	background: url(https://raw.githubusercontent.com/Dynamique-Zak/LastHopeOfDragons/master/assets/img/Background_01.jpg) no-repeat;
+    	background-size: auto auto;
 }
 #about .about_content{
 	margin-top: 40px;
