@@ -515,6 +515,10 @@ img{
 .btn.btn-green:hover{
 	background-color: #187e43;
 }
+
+#promotion .row{
+	padding: 5px;
+}
 /* end promotion */
 
 /* start portfolio */
