@@ -477,7 +477,7 @@ img{
 	margin: 0;
 	padding: 0;
 	background: url(https://raw.githubusercontent.com/Dynamique-Zak/LastHopeOfDragons/master/assets/img/Background_04.jpg) no-repeat;
-	background-size: auto auto;
+	background-size: cover;
 	background-position-y: 65%;
 }
 #promotion .bm-remove{
