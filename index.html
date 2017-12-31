@@ -44,14 +44,62 @@ layout: default
 </section>
 <!-- End sotry -->
 
+<!-- Characters -->
+<section id="characters">
+  <div class="container-full" style="background: #2E2E2E;">
+    <div class="container">
+      <div class="row bm-remove animate" data-anim-type="zoomInUp">
+        <h2 class="section-title">Characters</h2>
+        <hr />
+
+        <div class="work-mig">
+          <ul>
+            {% for post in site.posts reversed %}
+              {% if post.categories contains 'characters' %}
+              <li class="col-md-4 col-sm-6 col-lg-4">
+                <figure>
+                  <img src="{{ site.baseurl }}/assets/img/{{ post.thumbnail }}" alt="news">
+                  <figcaption>
+                    <div class="border">
+                      <h4>{{ post.title }}</h4>
+                      <a href="{{ site.baseurl }}/assets/img/{{ post.thumbnail }}" ><i class="fa fa fa-link"></i></a>
+                    </div>
+                  </figcaption>
+                </figure>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- /#Characters -->
+
 <!-- Promotional video -->
 <section id="promotion">
   <div class="container-full">
     <div class="container">
       <div class="bm-remove animate" data-anim-type="zoomInUp">
+        <!-- December update -->
         <div class="col-md-6">
           <div class="promotion_content " data-anim-type="fadeInLeft">
-            <h1>Last Summary </h1>
+            <h1>Last Summary Update</h1>
+            <p>Brutal battle system with combo and teleport attack added</p>
+            <a href="#portfolio" style="color: #8A0808;">Old mechanics (but always present)</a>
+          </div>
+        </div>
+         <div class="col-md-6">
+          <div class="ifarem embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" width="520" height="345"
+            src="https://www.youtube.com/embed/NA0awJpv3kU">
+            </iframe>
+          </div>
+        </div>
+        <!-- First update -->
+        <div class="col-md-6">
+          <div class="promotion_content " data-anim-type="fadeInLeft">
+            <h1>Old update </h1>
             <p>Aidora can climb and teleport with his dragon sword used his dragon spirit. Also he can block some enemies attack.</p>
             <a href="#portfolio" style="color: #8A0808;">Old mechanics (but always present)</a>
           </div>
