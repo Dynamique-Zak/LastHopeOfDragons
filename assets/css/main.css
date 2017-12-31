@@ -473,10 +473,17 @@ img{
 
 /* start promotion */
 #promotion .container-full{
-	background: #f2f2f2;
+	background-color: #474747;
 	margin: 0;
 	padding: 0;
+	background: url(https://raw.githubusercontent.com/Dynamique-Zak/LastHopeOfDragons/master/assets/img/Background_04.jpg) no-repeat;
+	background-size: auto auto;
+	background-position-y: 65%;
 }
+#promotion .bm-remove{
+	background-color: rgba(200, 178, 178, 0.3);
+}
+
 #promotion .promotion_content,
 .ifarem{
 	margin-bottom: 100px;
@@ -484,7 +491,7 @@ img{
 	margin:0;
 }
 #promotion .promotion_content h1{
-	color: #444e5d;
+	color: #b3b3b3;
 	font-size: 36px;
 	font-family: 'Roboto' sans-serif;
 }
@@ -494,15 +501,15 @@ img{
 	font-family: "Roboto" sans-serif;
 }
 #promotion .promotion_content p{
-	color: #4d5866;
+	color: #fbfbf;
 	font-size: 22px;
 	line-height: 28px;
 }
 #promotion .promotion_content a{
 	color: #ffffff;
-    font-size: 24px;
-    margin-top: 20px;
-    padding: 12px 34px;
+    	font-size: 24px;
+    	margin-top: 20px;
+    	padding: 12px 34px;
 }
 .btn.btn-green{
 	background-color: #1fab5a;
