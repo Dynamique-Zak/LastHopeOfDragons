@@ -533,24 +533,24 @@ img{
 	padding-bottom: 36px;
 	color: #b7b7b7;
 }
-#portfolio .work-mig ul{
+.work-mig ul{
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
 }
-#portfolio .work-mig ul li{
+.work-mig ul li{
 	float: left;
 }
-#portfolio .work-mig figure{
+.work-mig figure{
 	width: 200px;
 	height: 200px;
 
 }
-#portfolio .work-mig img{
+.work-mig img{
 	overflow: hidden;
 	min-width: 100%;
 }
-#portfolio .work-mig figure{
+.work-mig figure{
 	width: 370px;
 	height: 290px;
 	min-width: 50px;
@@ -561,7 +561,7 @@ img{
 	overflow: hidden;
 	padding: 0;
 }
-#portfolio .work-mig figcaption{
+.work-mig figcaption{
 	opacity: 0;
 	position: absolute;
 	width: 100%;
@@ -579,14 +579,14 @@ img{
 	z-index: 0;
 }
 
-#portfolio .work-mig figure:hover figcaption {
+.work-mig figure:hover figcaption {
 	opacity:1;
 }
 
-#portfolio .work-mig figure:hover .border{
+.work-mig figure:hover .border{
 	opacity: 1;
 }
-#portfolio .border{
+.border{
 	width: 328px;
 	height: 250px;
 	padding: 12px;
@@ -598,7 +598,7 @@ img{
 	-ms-transition: opacity .9s;
 	transition: opacity .3s;
 }
-#portfolio .border h4{
+.border h4{
 	color: #fff;
 	font-size: 18px;
 	line-height: 22px;
@@ -607,12 +607,12 @@ img{
 	margin-top: 30px;
 	padding-bottom: 20px;
 }
-#portfolio .border a  {
+.border a  {
 	font-size: 24px;
 	text-align: center;
 	text-decoration: none;
 }
-#portfolio .border i{
+.border i{
 	width: 45px;
 	height: 45px;
 	color: #323a44;
