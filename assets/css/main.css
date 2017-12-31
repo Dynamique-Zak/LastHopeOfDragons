@@ -739,9 +739,12 @@ img{
 
 /* start footer */
 #footer .container-full{
-	background: #2E2E2E;
+	background-color: #2E2E2E;
 	min-width: 50%;
 	padding-bottom: 14px;
+	background: url(https://raw.githubusercontent.com/Dynamique-Zak/LastHopeOfDragons/master/assets/img/Background_02.jpg) no-repeat;
+	background-size: cover;
+	background-position-y: 65%;
 }
 #footer .socile{
 	margin-top: 22px;
